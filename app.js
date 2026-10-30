@@ -17,7 +17,7 @@ function formatReduction(value){
    x=Number(s.replace('%','').replace(',','.'));
  }
  if(!Number.isFinite(x))return 'VALOR A CONFERIR';
- if(Math.abs(x)<0.00000001)return 'NÃO TEM REDUÇÃO';
+ if(Math.abs(x)<0.00000001)return 'NÃO POSSUI REDUÇÃO';
  return x.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:4})+'%';
 }
 function metric(label,value){let v=label==='Redução da BC-ST'?formatReduction(value):String(value??'').trim()||'Não informado';return `<div class="tile"><span>${e(label)}</span><strong>${e(v)}</strong></div>`;}
