@@ -1,7 +1,26 @@
 
 let DB=null, ALLDOCS=[]; const $=x=>document.getElementById(x);
 const e=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-function metric(label,value){let v=String(value??'').trim();let formula=v.startsWith('=');return `<div class="tile"><span>${e(label)}</span><strong>${e(v||'Não informado')}</strong>${formula?'<small class="subtle">Fórmula na planilha; não recalculada neste painel</small>':''}</div>`;}
+function formatReduction(value){
+ const s=String(value??'').trim();
+ if(!s)return 'NÃO INFORMADO';
+ let x;
+ if(s.startsWith('=')){
+   // Aceita somente os padrões aritméticos presentes na planilha fornecida.
+   let m=s.match(/^=ROUND\(\(1-([0-9.,]+)\/([0-9.,]+)\)\*100,\s*([0-9]+)\)$/i);
+   if(m){x=(1-Number(m[1].replace(',','.'))/Number(m[2].replace(',','.')))*100;}
+   else{
+     m=s.match(/^=ROUND\(100-([0-9.,]+),\s*([0-9]+)\)$/i);
+     if(m)x=100-Number(m[1].replace(',','.'));
+   }
+ }else{
+   x=Number(s.replace('%','').replace(',','.'));
+ }
+ if(!Number.isFinite(x))return 'VALOR A CONFERIR';
+ if(Math.abs(x)<0.00000001)return 'NÃO TEM REDUÇÃO';
+ return x.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:4})+'%';
+}
+function metric(label,value){let v=label==='Redução da BC-ST'?formatReduction(value):String(value??'').trim()||'Não informado';return `<div class="tile"><span>${e(label)}</span><strong>${e(v)}</strong></div>`;}
 function render(){let uf=$('uf').value;let d=DB.estados.find(x=>x.uf===uf); if(!d)return;$('titulo').textContent='Parâmetros — '+uf;$('ncm').textContent='NCM '+d.ncm+'  ·  CEST '+d.cest;
  $('metrics').innerHTML=metric('ICMS interno',d.interna)+metric('ICMS interestadual',d.interestadual)+metric('MVA original',d.original)+metric('MVA ajustada 4%',d.ajustada)+metric('Redução da BC-ST',d.reducao);
  $('obs').textContent=d.observacoes||'Nenhuma observação cadastrada.';
