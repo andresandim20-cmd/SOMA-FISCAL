@@ -1,0 +1,479 @@
+{
+  "dataReferencia": "30/10/2026",
+  "fontePlanilha": "DADOS PARA PARAMETROS ST BIKE NOVA atualizada 29-10-2026.xlsx",
+  "estados": [
+    {
+      "uf": "AL",
+      "ncm": "8711.60.00",
+      "cest": "26.001.01",
+      "interna": "21,5% (20,5 ICMS + 1 FUNDO)",
+      "interestadual": 4,
+      "original": 34,
+      "ajustada": 63.87,
+      "reducao": "=ROUND((1-12/21.5)*100,4)",
+      "observacoes": "Redução da base do ICMS ST de forma que resulte em 12% de ICMS ST nas op. Internas",
+      "legislacao": "Red BC ICMS ST conf. item 50 do Anexo II do RICMS/AL",
+      "complemento1": "",
+      "complemento2": "",
+      "docs": [
+        {
+          "label": "Lei 5.900/1996 · ICMS AL",
+          "url": "pdfs/doc24.pdf",
+          "source_file": "Legislação - Econet Editora 18.pdf"
+        },
+        {
+          "label": "Fundo estadual AL",
+          "url": "pdfs/doc25.pdf",
+          "source_file": "Econet Editora 17.pdf"
+        }
+      ]
+    },
+    {
+      "uf": "BA",
+      "ncm": "8711.60.00",
+      "cest": "26.001.01",
+      "interna": 12,
+      "interestadual": 4,
+      "original": 34,
+      "ajustada": 46.18,
+      "reducao": 0,
+      "observacoes": "Beneficio aliquota interna 12%",
+      "legislacao": "Aliq. ICMS INTERNA conf. art 16, inciso III, da Lei nº 7.014/96",
+      "complemento1": "",
+      "complemento2": "",
+      "docs": [
+        {
+          "label": "Lei 7.014/1996 · BA",
+          "url": "pdfs/doc26.pdf",
+          "source_file": "Econet Editora 16.pdf"
+        }
+      ]
+    },
+    {
+      "uf": "CE",
+      "ncm": "8711.60.00",
+      "cest": "26.001.01",
+      "interna": 20,
+      "interestadual": 4,
+      "original": 34,
+      "ajustada": 46.18,
+      "reducao": 0,
+      "observacoes": "mva 46,18%",
+      "legislacao": "O Decreto nº 35.579, de 15 de outubro de 2026,",
+      "complemento1": "Redução da base do ICMS ST de forma que resulte em 12% de ICMS ST nas op. Internas",
+      "complemento2": "Conf. Art 562, incisos II RICMS/CE",
+      "docs": [
+        {
+          "label": "Decreto 33.327/2019 · CE",
+          "url": "pdfs/doc29.pdf",
+          "source_file": "Legislação - Econet Editora 13.pdf"
+        }
+      ]
+    },
+    {
+      "uf": "GO",
+      "ncm": "8711.60.00",
+      "cest": "26.001.01",
+      "interna": 19,
+      "interestadual": 4,
+      "original": 34,
+      "ajustada": 58.81,
+      "reducao": "=ROUND((1-12/19)*100,4)",
+      "observacoes": "Redução da base do ICMS ST de forma que resulte em 12% de ICMS ST nas op. Internas",
+      "legislacao": "Red BC ICMS ST conf. art. 8º, inc LIX, Anexo IX do RCTE/GO,",
+      "complemento1": "",
+      "complemento2": "",
+      "docs": [
+        {
+          "label": "Anexo IX · benefícios GO",
+          "url": "pdfs/doc31.pdf",
+          "source_file": "Econet Editora 11.pdf"
+        },
+        {
+          "label": "Apêndice II · ST GO (verificar escopo)",
+          "url": "pdfs/doc30.pdf",
+          "source_file": "Legislação - Econet Editora 12.pdf"
+        }
+      ]
+    },
+    {
+      "uf": "MA",
+      "ncm": "8711.60.00",
+      "cest": "26.001.01",
+      "interna": 23,
+      "interestadual": 4,
+      "original": 34,
+      "ajustada": 67.06,
+      "reducao": 0,
+      "observacoes": "",
+      "legislacao": "",
+      "complemento1": "Redução da base do ICMS ST de forma que resulte em 12% de ICMS ST nas op. Internas",
+      "complemento2": "Red BC ICMS ST conf. art. 1º do Decreto nº 20.498/2004",
+      "docs": [
+        {
+          "label": "Decreto 20.498/2004 · MA",
+          "url": "pdfs/doc33.pdf",
+          "source_file": "Econet Editora 9.pdf"
+        },
+        {
+          "label": "Anexo de veículos · MA",
+          "url": "pdfs/doc32.pdf",
+          "source_file": "Econet Editora 10.pdf"
+        }
+      ]
+    },
+    {
+      "uf": "MG",
+      "ncm": "8711.60.00",
+      "cest": "26.001.01",
+      "interna": 12,
+      "interestadual": 4,
+      "original": 34,
+      "ajustada": 46.18,
+      "reducao": 0,
+      "observacoes": "Beneficio aliquota interna 12%",
+      "legislacao": "Aliq ICMS ST conf. Anexo I, item 4.3, RICMS/MG",
+      "complemento1": "",
+      "complemento2": "",
+      "docs": [
+        {
+          "label": "Anexo VII · ST MG",
+          "url": "pdfs/doc34.pdf",
+          "source_file": "Legislação - Econet Editora 8.pdf"
+        },
+        {
+          "label": "Anexo I · alíquotas MG",
+          "url": "pdfs/doc35.pdf",
+          "source_file": "Legislação - Econet Editora 7.pdf"
+        }
+      ]
+    },
+    {
+      "uf": "MS",
+      "ncm": "8711.60.00",
+      "cest": "26.001.01",
+      "interna": 17,
+      "interestadual": 4,
+      "original": 34,
+      "ajustada": 46.18,
+      "reducao": 0,
+      "observacoes": "A alíquota de 17% está prevista na alínea “a” do inciso III do artigo 41 do RICMS/MS.",
+      "legislacao": "alínea “a” do inciso III do artigo 41 do RICMS/MS.",
+      "complemento1": "Redução da base do ICMS ST de forma que resulte em 12% de ICMS ST nas op. Internas",
+      "complemento2": "Red BC ICMS ST conf. art 1°, § 1°, do Decreto n° 11.056/2003",
+      "docs": [
+        {
+          "label": "Anexo III · ST MS",
+          "url": "pdfs/doc36.pdf",
+          "source_file": "Legislação - Econet Editora 6.pdf"
+        }
+      ]
+    },
+    {
+      "uf": "MT",
+      "ncm": "8711.60.00",
+      "cest": "26.001.01",
+      "interna": 17,
+      "interestadual": 4,
+      "original": 34,
+      "ajustada": "=Tabela1[[#This Row],[MVA Original (%)]]",
+      "reducao": "=ROUND(100-70.59,4)",
+      "observacoes": "A base de cálculo reduzida para 70,59% do valor da operação, de acordo com o artigo 22 do Anexo V do RICMS/MT, nas operações com veículos automotores novos, listados no referido dispositivo legal, observadas as condições mencionadas no mesmo.",
+      "legislacao": "línea \"a\" do inciso I do artigo 95 do RICMS/MT.",
+      "complemento1": "Redução da base do ICMS ST de forma que resulte em 12% de ICMS ST nas op. Internas",
+      "complemento2": "Red BC ICMS ST conf. art. 22, inciso II, Anexo V do RICMS/MT",
+      "docs": [
+        {
+          "label": "Regulamento ICMS MT",
+          "url": "pdfs/doc00.pdf",
+          "source_file": "Legislação - Econet Editora 5.pdf"
+        },
+        {
+          "label": "Anexo X · ST MT",
+          "url": "pdfs/doc01.pdf",
+          "source_file": "Legislação - Econet Editora 3.pdf"
+        },
+        {
+          "label": "RICMS MT · Decreto 2.212/2014",
+          "url": "pdfs/doc02.pdf",
+          "source_file": "Legislação - Econet Editora 4.pdf"
+        },
+        {
+          "label": "Anexo X · ST MT",
+          "url": "pdfs/doc03.pdf",
+          "source_file": "Legislação - Econet Editora2.pdf"
+        }
+      ]
+    },
+    {
+      "uf": "PA",
+      "ncm": "8711.60.00",
+      "cest": "26.001.01",
+      "interna": 12,
+      "interestadual": 4,
+      "original": 34,
+      "ajustada": 46.18,
+      "reducao": 0,
+      "observacoes": "Beneficio aliquota interna 12%",
+      "legislacao": "Aliq ICMS ST conf. art. 20, V, “b” e § 3º do RICMS/PA",
+      "complemento1": "",
+      "complemento2": "",
+      "docs": [
+        {
+          "label": "Anexo XIII · ST PA",
+          "url": "pdfs/doc05.pdf",
+          "source_file": "Legislação - Econet Editora 36.pdf"
+        },
+        {
+          "label": "Anexo XIII · ST PA (cópia)",
+          "url": "pdfs/doc06.pdf",
+          "source_file": "Legislação - Econet Editora 35.pdf"
+        }
+      ]
+    },
+    {
+      "uf": "PB",
+      "ncm": "8711.60.00",
+      "cest": "26.001.01",
+      "interna": 20,
+      "interestadual": 4,
+      "original": 34,
+      "ajustada": 60.8,
+      "reducao": "=ROUND((1-12/20)*100,4)",
+      "observacoes": "Redução da base do ICMS ST de forma que resulte em 12% de ICMS ST nas op. Internas",
+      "legislacao": "artigo 33, inciso VIII, do RICMS/PB",
+      "complemento1": "",
+      "complemento2": "",
+      "docs": [
+        {
+          "label": "Anexo 05 · ST PB",
+          "url": "pdfs/doc07.pdf",
+          "source_file": "Legislação - Econet Editora 34.pdf"
+        },
+        {
+          "label": "Artigo 13 · alíquotas PB",
+          "url": "pdfs/doc08.pdf",
+          "source_file": "Legislação - Econet Editora.pdf"
+        }
+      ]
+    },
+    {
+      "uf": "PE",
+      "ncm": "8711.60.00",
+      "cest": "26.001.01",
+      "interna": 20.5,
+      "interestadual": 4,
+      "original": 34,
+      "ajustada": 61.81,
+      "reducao": 0,
+      "observacoes": "A alíquota relativa às operações com demais bens e mercadorias, bem como prestações de serviço, para as quais não haja previsão de alíquota específica, é de 20,5%, de acordo com o artigo 15, inciso VII, da Lei nº 15.730/2016.",
+      "legislacao": "o artigo 15, inciso VII, da Lei nº 15.730/2016.",
+      "complemento1": "Redução da base do ICMS ST de forma que resulte em 12% de ICMS ST nas op. Internas",
+      "complemento2": "Red BC ICMS ST conf. art. 27, Anexo 3 do RICMS/PE.",
+      "docs": [
+        {
+          "label": "Anexo 37 · ST PE",
+          "url": "pdfs/doc09.pdf",
+          "source_file": "Legislação - Econet Editora 33.pdf"
+        },
+        {
+          "label": "Lei 15.730/2016 · PE",
+          "url": "pdfs/doc10.pdf",
+          "source_file": "Legislação - Econet Editora 32.pdf"
+        }
+      ]
+    },
+    {
+      "uf": "PI",
+      "ncm": "8711.60.00",
+      "cest": "26.001.01",
+      "interna": 22.5,
+      "interestadual": 4,
+      "original": 34,
+      "ajustada": 65.99,
+      "reducao": "=ROUND((1-12/22.5)*100,4)",
+      "observacoes": "Redução da base do ICMS ST de forma que resulte em 12% de ICMS ST nas op. Internas",
+      "legislacao": "Red BC ICMS ST conf. art. 178, XIV, Anexo IV do RICMS/PI",
+      "complemento1": "",
+      "complemento2": "",
+      "docs": [
+        {
+          "label": "Anexo X · ST PI",
+          "url": "pdfs/doc11.pdf",
+          "source_file": "Legislação - Econet Editora 31.pdf"
+        },
+        {
+          "label": "Anexo X · ST PI (cópia)",
+          "url": "pdfs/doc12.pdf",
+          "source_file": "Legislação - Econet Editora 30.pdf"
+        },
+        {
+          "label": "Anexo IX · ST PI",
+          "url": "pdfs/doc13.pdf",
+          "source_file": "Legislação - Econet Editora 29.pdf"
+        }
+      ]
+    },
+    {
+      "uf": "PR",
+      "ncm": "8711.60.00",
+      "cest": "26.001.01",
+      "interna": "12,00 (10 ICMS + 2 FUNDO)",
+      "interestadual": 4,
+      "original": 34,
+      "ajustada": 46.18,
+      "reducao": 0,
+      "observacoes": "Beneficio aliquota interna 12%",
+      "legislacao": "Aliq ICMS ST conf. art. 17, §11, IV e Anexo XII, art. 1º, IX do RICMS/PR",
+      "complemento1": "",
+      "complemento2": "",
+      "docs": [
+        {
+          "label": "RICMS PR",
+          "url": "pdfs/doc14.pdf",
+          "source_file": "Legislação - Econet Editora 28.pdf"
+        },
+        {
+          "label": "Anexo XII · FECOP PR",
+          "url": "pdfs/doc15.pdf",
+          "source_file": "Legislação - Econet Editora 27.pdf"
+        }
+      ]
+    },
+    {
+      "uf": "RJ",
+      "ncm": "8711.60.00",
+      "cest": "26.001.01",
+      "interna": "22,00 (20 ICMS + 2 FUNDO)",
+      "interestadual": 4,
+      "original": "-",
+      "ajustada": "-",
+      "reducao": "",
+      "observacoes": "Não esta sujeito ao ST",
+      "legislacao": "SUBITEM 15.1 DO ANEXO I DO LIVRO II DO RICMS/RJ",
+      "complemento1": "",
+      "complemento2": "",
+      "docs": [
+        {
+          "label": "Livro II · ST RJ",
+          "url": "pdfs/doc23.pdf",
+          "source_file": "Legislação - Econet Editora 19.pdf"
+        }
+      ]
+    },
+    {
+      "uf": "RO",
+      "ncm": "8711.60.00",
+      "cest": "26.001.01",
+      "interna": 19.5,
+      "interestadual": 4,
+      "original": 0,
+      "ajustada": 0,
+      "reducao": "",
+      "observacoes": "Não esta sujeito ao ST",
+      "legislacao": "",
+      "complemento1": "",
+      "complemento2": "",
+      "docs": [
+        {
+          "label": "Anexo 1 · ST RO",
+          "url": "pdfs/doc27.pdf",
+          "source_file": "Legislação - Econet Editora 15.pdf"
+        },
+        {
+          "label": "Livro III · ST RO",
+          "url": "pdfs/doc28.pdf",
+          "source_file": "Econet Editora 14.pdf"
+        }
+      ]
+    },
+    {
+      "uf": "RS",
+      "ncm": "8711.60.00",
+      "cest": "26.001.01",
+      "interna": 12,
+      "interestadual": 4,
+      "original": 34,
+      "ajustada": 46.18,
+      "reducao": 0,
+      "observacoes": "",
+      "legislacao": "",
+      "complemento1": "Redução da base do ICMS ST de forma que resulte em 12% de ICMS ST nas op. Internas",
+      "complemento2": "Aliq ICMS ST conf. art. 12, II, “d”, item 37, da Lei nº 8.820/89",
+      "docs": [
+        {
+          "label": "Seção III · ST RS",
+          "url": "pdfs/doc16.pdf",
+          "source_file": "Legislação - Econet Editora 26.pdf"
+        },
+        {
+          "label": "Legislação ICMS RS",
+          "url": "pdfs/doc17.pdf",
+          "source_file": "Legislação - Econet Editora 25.pdf"
+        }
+      ]
+    },
+    {
+      "uf": "SC",
+      "ncm": "8711.60.00",
+      "cest": "26.001.01",
+      "interna": 12,
+      "interestadual": 4,
+      "original": 34,
+      "ajustada": 46.18,
+      "reducao": 0,
+      "observacoes": "Beneficio aliquota interna 12% mva 46,18",
+      "legislacao": "Aplica-se a alíquota de 12% para motocicletas (incluídos os ciclomotores) e outros ciclos equipados com motor auxiliar, mesmo com carro lateral; carros laterais, de acordo com o Seção IV do Anexo I do RICMS/SC, conforme a alínea “f” do inciso III do artigo 26 do RICMS/SC.. Nesse caso, a MVA Ajustada será de 34% (alíquota interestadual de 12%) ou de 46,18% (alíquota interestadual de 4%).",
+      "complemento1": "Beneficio aliquota interna 12%",
+      "complemento2": "Aliq ICMS ST conf. secao IV, anexo I e art. 26 III, f, do RICMS/SC",
+      "docs": [
+        {
+          "label": "Anexo 3 · ST SC",
+          "url": "pdfs/doc18.pdf",
+          "source_file": "Legislação - Econet Editora 24.pdf"
+        },
+        {
+          "label": "Anexo 3 · ST SC (cópia)",
+          "url": "pdfs/doc19.pdf",
+          "source_file": "Legislação - Econet Editora 23.pdf"
+        },
+        {
+          "label": "RICMS SC",
+          "url": "pdfs/doc20.pdf",
+          "source_file": "Legislação - Econet Editora 22.pdf"
+        },
+        {
+          "label": "Anexo 3 · ST SC",
+          "url": "pdfs/doc21.pdf",
+          "source_file": "Legislação - Econet Editora 21.pdf"
+        }
+      ]
+    },
+    {
+      "uf": "SP",
+      "ncm": "8711.60.00",
+      "cest": "26.001.01",
+      "interna": 12,
+      "interestadual": 4,
+      "original": 34,
+      "ajustada": 34,
+      "reducao": 0,
+      "observacoes": "Beneficio aliquota interna 12%",
+      "legislacao": "Aliq ICMS ST conf. art. 54, X, RICMS/SP",
+      "complemento1": "",
+      "complemento2": "",
+      "docs": [
+        {
+          "label": "Portaria CAT 68/2019 · SP",
+          "url": "pdfs/doc22.pdf",
+          "source_file": "Legislação - Econet Editora 20.pdf"
+        },
+        {
+          "label": "Livro II · ST RJ",
+          "url": "pdfs/doc23.pdf",
+          "source_file": "Legislação - Econet Editora 19.pdf"
+        }
+      ]
+    }
+  ]
+}
