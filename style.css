@@ -1,42 +1,23 @@
+/* ST BIKE — Consulta Fiscal | Layout original com fundo mais escuro */
 :root {
   font-family: Inter, system-ui, -apple-system, Segoe UI, Arial, sans-serif;
-  background: #344256;
+  background: #253247;
   color: #172235;
 }
 * { box-sizing: border-box; }
-body { margin: 0; background: #344256; }
-.top {
-  background: #12263c;
-  color: white;
-  padding: 28px max(20px, calc((100vw - 1080px)/2));
-}
+body { margin: 0; background: #253247; }
+.top { background: #12263c; color: white; padding: 28px max(20px, calc((100vw - 1080px)/2)); }
 .top h1 { margin: 0 0 7px; font-size: 27px; letter-spacing: -.6px; }
 .top p { color: #c8d6e8; margin: 0; line-height: 1.5; }
 .wrap { max-width: 1080px; margin: 25px auto; padding: 0 18px; }
-.panel {
-  background: white;
-  color: #172235;
-  border: 1px solid #e0e6f0;
-  border-radius: 14px;
-  padding: 22px;
-  margin-bottom: 18px;
-  box-shadow: 0 6px 24px rgba(8, 18, 35, .20);
-}
+.panel { background: #fff; color: #172235; border: 1px solid #e0e6f0; border-radius: 14px; padding: 22px; margin-bottom: 18px; box-shadow: 0 8px 26px rgba(0,0,0,.22); }
 .controls { display: flex; gap: 12px; flex-wrap: wrap; align-items: flex-end; }
 .field { display: flex; flex-direction: column; gap: 7px; flex: 1; min-width: 175px; }
 label { font-size: 12px; font-weight: 700; color: #4c5b70; }
-select, input {
-  font: inherit;
-  padding: 11px;
-  border-radius: 8px;
-  border: 1px solid #cdd6e4;
-  background: white;
-  color: #172235;
-  width: 100%;
-}
+select, input { font: inherit; padding: 11px; border-radius: 8px; border: 1px solid #cdd6e4; background: white; color: #172235; width: 100%; }
 .badge { padding: 5px 9px; background: #e8eefb; border-radius: 99px; font-size: 12px; color: #33527e; font-weight: 650; }
 .sectiontitle { margin: 0 0 15px; font-size: 18px; }
-.tiles { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.tiles { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 12px; }
 .tile { background: #f7f9fd; border: 1px solid #e4ebf5; border-radius: 10px; padding: 14px; }
 .tile span { display: block; font-size: 12px; color: #5b6980; margin-bottom: 9px; }
 .tile strong { font-size: 22px; overflow-wrap: anywhere; }
@@ -46,19 +27,7 @@ select, input {
 .law:first-child { border-top: 0; }
 .law small { color: #64748b; font-size: 12px; display: block; margin-top: 4px; }
 .links { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
-.doclink {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  border: 1px solid #d9e2ed;
-  background: #fafcff;
-  color: #1457a3;
-  padding: 11px 12px;
-  border-radius: 9px;
-  text-decoration: none;
-  font-size: 13px;
-  font-weight: 650;
-}
+.doclink { display: flex; align-items: center; gap: 8px; border: 1px solid #d9e2ed; background: #fafcff; color: #1457a3; padding: 11px 12px; border-radius: 9px; text-decoration: none; font-size: 13px; font-weight: 650; }
 .doclink:hover { background: #edf4ff; }
 .warn { background: #fff8ed; border: 1px solid #f1ddb8; border-radius: 10px; padding: 14px; font-size: 13px; line-height: 1.6; color: #704d1b; }
 button { background: #1e5da3; border: 0; padding: 11px 14px; border-radius: 9px; color: #fff; cursor: pointer; font-weight: 650; }
@@ -69,7 +38,7 @@ button:hover { background: #16477f; }
 .subtle { color: #627188; font-size: 13px; }
 .document-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 15px; }
 @media (max-width: 760px) {
-  .tiles { grid-template-columns: repeat(2, 1fr); }
+  .tiles { grid-template-columns: repeat(2,1fr); }
   .details, .links, .document-grid { grid-template-columns: 1fr; }
   .top { padding: 25px 18px; }
 }
